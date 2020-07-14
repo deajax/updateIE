@@ -1,4 +1,20 @@
-function isIE() {
-    if (!!window.ActiveXObject || "ActiveXObject" in window)
-        console.log()
-}
+document.write("<style>");
+document.write(".UpdateIE { position: fixed; width: 100%; height: 100%; background-color: white; text-align: center; z-index: 9999; padding-top: 40px }");
+document.write(".UpdateIE small { color: #969696 }");
+document.write(".NewBrowsers { margin: 24px }");
+document.write(".NewBrowsers a { display: inline-block; margin: 24px; text-decoration: none; text-align: center; color: #595959 }");
+document.write(".NewBrowsers a img { width: 40px; height: 40px }");
+document.write(".NewBrowsers a span { display: block; line-height: 2 }");
+document.write(".NewBrowsers a:hover { color: #1890ff }");
+document.write("</style>");
+document.write("<div class='UpdateIE'>");
+document.write("<h1>您正在使用过时的IE浏览器</h1>");
+document.write("<p>请升级您的浏览器以获得最佳浏览体验</p>");
+document.write("<small>点击下方链接下载最新版浏览器</small>");
+document.write("<div class='NewBrowsers'>");
+document.write("<a href='https://www.google.cn/chrome/' target='_blank'><img src='browser/chrome.jpg' /><span>Chrome</span></a>");
+document.write("<a href='https://www.firefox.com.cn/' target='_blank'><img src='browser/firefox.jpg' /><span>Firefox</span></a>");
+document.write("<a href='https://browser.360.cn/ee/' target='_blank'><img src='browser/360jisu.jpg' /><span>360极速</span></a>");
+document.write("<a href='https://browser.qq.com/' target='_blank'><img src='browser/qqbrowser.jpg' /><span>QQ浏览器</span></a>");
+document.write("<a href='https://ie.sogou.com/' target='_blank'><img src='browser/sougou.jpg' /><span>搜狗浏览器</span></a>");
+document.write("</div></div>");
