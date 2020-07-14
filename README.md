@@ -15,7 +15,7 @@
 
 ```html
 <!--[if IE]>
-  <script type="text/javascript" src="https://deajax.github.io/updateIE/UpdateIE.js"></script>
+	<script type="text/javascript" src="https://deajax.github.io/updateIE/UpdateIE.js"></script>
 <![endif]-->
 ```
 
