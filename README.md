@@ -11,11 +11,11 @@
 
 ##### 所以UpdateIE的作用就是把整个页面屏蔽掉，然后让他们下载一个现代浏览器。
 
-把下面的代码放到 <head></head> 里：
+把下面的代码放到 `<head></head>` 里：
 
 ```html
 <!--[if IE]>
-		<script type="text/javascript" src="https://github.com/deajax/updateIE/blob/master/UpdateIE.js"></script>
+  <script type="text/javascript" src="https://deajax.github.io/updateIE/UpdateIE.js"></script>
 <![endif]-->
 ```
 
@@ -23,8 +23,11 @@
 
 这里还有其他方案
 
-- <!--[if IE]> 所有的IE可识别 <![endif]-->
-- <!--[if IE 8]> 仅IE8可识别 <![endif]-->
-- <!--[if lt IE 8]> IE8以及IE8以下版本可识别 <![endif]-->
-- <!--[if gte IE 8]> IE8以及IE8以上版本可识别 <![endif]-->
+> `<!--[if IE]> 所有的IE可识别 <![endif]-->`
+>
+> `<!--[if IE 8]> 仅IE8可识别 <![endif]-->`
+>
+> `<!--[if lt IE 8]> IE8以及IE8以下版本可识别 <![endif]-->`
+>
+> `<!--[if gte IE 8]> IE8以及IE8以上版本可识别 <![endif]-->`
 
